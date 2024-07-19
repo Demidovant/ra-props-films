@@ -2,9 +2,9 @@ import './App.css'
 import React from 'react';
 import Stars from './components/Stars/stars';
 
-const App = () => (
+const App: React.FC = () => (
   <div>
-    <h1>Рейтинги фильмов</h1>
+    <h1>Рейтинг фильма</h1>
     <Stars count={0} />
     <Stars count={1} />
     <Stars count={2} />
